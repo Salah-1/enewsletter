@@ -1,0 +1,6 @@
+name: enewsletter
+type: module
+description: Demonstrates ajax call back and functionalJavaScript test
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9

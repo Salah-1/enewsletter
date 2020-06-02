@@ -1,0 +1,26 @@
+enewsletter.example:
+  path: '/enewsletter/example'
+  defaults:
+    _title: 'Tilte Example'
+    _controller: '\Drupal\enewsletter\Controller\EnewsletterController::build'
+  requirements:
+    _permission: 'access content'
+
+enewsletter.subscribe_customer:
+  path: '/enewsletter/subscribe'
+  defaults:
+    _form:  '\Drupal\enewsletter\Form\SubscribeCustomer'
+    _title: 'Subscribe | un-subscribe page'
+  requirements:
+    _permission: 'access content'
+
+enewsletter.block-show-or-hide-link-html:
+  path: '/enewsletter/show-me-plz/'
+  defaults:
+    _title: 'Tilte Example'
+    _controller:  '\Drupal\enewsletter\Controller\EnewsletterController::hideOrShowLink'
+  requirements:
+    _permission: 'access content'
+
+
+
